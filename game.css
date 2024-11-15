@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    
+    color: bisque;
+    text-align: center;
+    height: 4rem;
+    font-size: 3rem;
+    line-height: 4rem;
+    background-color: rgb(46, 117, 93);
+    
+}
+
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.choice:hover{
+    cursor: pointer;
+    background-color: rgb(42, 20, 20);
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: fill;
+    border-radius: 50%;
+    
+    
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 4rem;
+    margin-right: 4rem;
+}
+
+.score{
+    align-items: center;
+
+}
+ 
+#gap{
+    text-align: center;
+    margin-right: 5rem;
+    margin-top: 5rem;
+    
+   
+
+} 
+#msg{
+    margin-top: 1rem;
+    font-size: 35px;
+    background-color: rgb(123, 3, 125);
+    color: rgb(201, 248, 233);
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.score-board{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+#user-score{
+   gap: 2rem;
+   font-size: 2rem;
+   margin-right: 1.75rem;
+}
+
+#you{
+    gap: 2rem;
+    margin-right: 2rem;
+    font-size: 2rem;
+
+}
+
+#comp{
+    gap: 2rem;
+    margin-right: 2rem;
+    font-size: 2rem;
+    
+
+}
+
+#comp-score{
+
+    gap: 2rem;
+   font-size: 2rem;
+   margin-right: 1.75rem;
+
+}
